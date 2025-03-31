@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "/Users/based/.local/bin/supabase-mcp-server",
+      "env": {
+        "SUPABASE_PROJECT_REF": "${SUPABASE_PROJECT_REF}",
+        "SUPABASE_DB_PASSWORD": "${SUPABASE_DB_PASSWORD}",
+        "SUPABASE_REGION": "${SUPABASE_REGION}",
+        "SUPABASE_ACCESS_TOKEN": "${SUPABASE_ACCESS_TOKEN}",
+        "SUPABASE_SERVICE_ROLE_KEY": "${SUPABASE_SERVICE_ROLE_KEY}"
+      }
+    }
+  }
+} 

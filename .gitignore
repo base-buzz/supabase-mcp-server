@@ -28,9 +28,11 @@ htmlcov/
 # Virtual Environment
 .env
 .env.test
+.env.local
 .venv
 env/
 venv/
+venv-py312/
 ENV/
 env.bak/
 venv.bak/
@@ -60,13 +62,16 @@ Icon
 .settings/
 *.sublime-workspace
 *.sublime-project
+.cursor/
+mcp.json
 
 # Local development
 
 *.log
 # Only ignore logs directory in the root, not in the package
 /logs/
-
+mcp_server.log
+.mcp_server.pid
 
 # Ignore local assets
 assets/
